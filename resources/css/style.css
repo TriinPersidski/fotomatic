@@ -10,12 +10,7 @@ html, body {
 .main-content {
   position: relative;
   top: 5.3125rem; /* To offset for fixed header. */
-  z-index: 2;
-  width: 100%;
-  margin: 0 auto;
   }
-
-
 
 .center {
   text-align: center;
@@ -36,7 +31,6 @@ html, body {
 
 .image-container img {
   display: block;
-
 }
 
 @media only screen and (max-width: 760px) {
@@ -52,6 +46,7 @@ header {
   width: 100%;
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
+  z-index: 100;
 }
 
 header .content {
@@ -123,7 +118,7 @@ header .mobile {
     background-color: #9dc20b;
     line-height: 1.6;
     color: white;
-    }
+  }
 }
 
 /* Sign Up Section */
@@ -188,7 +183,6 @@ header .mobile {
   margin-top: 1.625rem;
   padding: 1.25rem 7.25rem;
   font-size: 1.25rem;
-
 }
 
 @media only screen and (max-width: 760px) {
@@ -440,7 +434,6 @@ header .mobile {
 
 footer {
   display: block;
-  padding-top: 7rem;
   background-color: #9b9b9b;
   padding: 1.5rem 2rem;
 }
@@ -454,7 +447,7 @@ footer .content {
 
 footer span .location {
   flex-grow: 1;
-  }
+}
 
 footer span .copyright {
   flex-grow: 1;
@@ -463,6 +456,5 @@ footer span .copyright {
 @media only screen and (min-width: 760px) {
   footer .content {
     font-size: .625rem;
-    margin-top: 3rem;
   }
 }
